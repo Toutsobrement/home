@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu de l'établissement</title>
+    <!-- Vous pouvez inclure ici des liens vers des fichiers CSS et JavaScript -->
+</head>
+<body>
+    <!-- Popup de vérification d'âge -->
+    <div id="age-verification-popup">
+        <p>Êtes-vous majeur ?</p>
+        <button id="yes-btn">Oui</button>
+        <button id="no-btn">Non</button>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <img src="logo.png" alt="Logo de l'établissement">
+        <nav>
+            <ul>
+                <li><a href="#nos-packs">Nos Packs</a></li>
+                <li><a href="#a-la-carte">À la Carte</a></li>
+                <li><a href="#en-savoir-plus">En savoir plus</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Slider -->
+    <div id="slider">
+        <a href="#whisky">Whisky</a>
+        <a href="#vodka">Vodka</a>
+        <a href="#gin">Gin</a>
+        <a href="#tequila">Tequila</a>
+        <a href="#rhum">Rhum</a>
+        <a href="#vin">Vin</a>
+        <a href="#biere">Bières</a>
+    </div>
+
+    <!-- Bannière "Tous les produits" -->
+    <div id="tous-les-produits">
+        <h2>Tous les produits</h2>
+    </div>
+
+    <!-- Formulaire de collecte d'adresses e-mail -->
+    <div id="email-collection">
+        <h2>Recevez nos offres spéciales par e-mail</h2>
+        <input type="email" placeholder="Entrez votre adresse e-mail">
+        <button>Valider</button>
+    </div>
+
+    <!-- Nos Packs -->
+    <section id="nos-packs">
+        <!-- Catégorie Whisky -->
+        <div class="pack-category">
+            <h3>Whisky</h3>
+            <!-- Premier pack -->
+            <div class="pack">
+                <img src="whisky-pack-1.jpg" alt="Pack Whisky 1">
+                <h4>Pack Whisky 1</h4>
+                <p>Description du pack Whisky 1</p>
+            </div>
+            <!-- Deuxième pack -->
+            <div class="pack">
+                <img src="whisky-pack-2.jpg" alt="Pack Whisky 2">
+                <h4>Pack Whisky 2</h4>
+                <p>Description du pack Whisky 2</p>
+            </div>
+        </div>
+        <!-- Répétez la structure ci-dessus pour les autres catégories (vodka, gin, tequila, rhum, bière) -->
+    </section>
+
+    <!-- À la Carte -->
+    <section id="a-la-carte">
+        <!-- Liste de produits à la carte -->
+        <h3>À la Carte</h3>
+        <ul>
+            <li>Produit 1</li>
+            <li>Produit 2</li>
+            <!-- Répétez pour d'autres produits -->
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div id="reseaux-sociaux">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+        <a href="#en-savoir-plus">En savoir plus</a>
+        <a href="#nous-contacter">Nous contacter</a>
+    </footer>
+</body>
+</html>
